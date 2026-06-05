@@ -1,10 +1,12 @@
 # CineStream
 
 CineStream is a movie discovery application built with React and the TMDB API. Users can browse popular movies, search for titles, save favorites, and continuously load more content through infinite scrolling.
+<img width="1787" height="810" alt="image" src="https://github.com/user-attachments/assets/ed28eeb6-2585-4ebe-a641-7bcc9e8b1bf6" />
+
 
 ## Live Demo
 
-Add deployment link here
+[Add deployment link here](https://sprints-one.vercel.app/)
 
 ## Demo Video
 
