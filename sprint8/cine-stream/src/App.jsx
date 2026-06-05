@@ -1,9 +1,26 @@
+import { Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/navbar";
+
+import Home from "./pages/home";
+import Favorites from "./pages/favorites";
+
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-900 text-white">
-      <h1 className="text-4xl font-bold">
-        Cine Stream
-      </h1>
+    <div className="min-h-screen bg-slate-900 text-white">
+      <Navbar />
+
+      <Routes>
+        <Route
+          path="/"
+          element={<Home />}
+        />
+
+        <Route
+          path="/favorites"
+          element={<Favorites />}
+        />
+      </Routes>
     </div>
   );
 }
